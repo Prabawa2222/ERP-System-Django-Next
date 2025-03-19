@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+*.env
+
+# Django / database files
+db.sqlite3
+*.sqlite3
+/media/
+staticfiles/
+static/
+
+# Logs and debugging
+logs/
+*.log
+*.out
+*.err
+debug.log
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Migrations (optional, if you want to exclude them)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Celery
+celerybeat-schedule
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Testing
+.tox/
+.nox/
+.pytest_cache/
+
+# Docker
+*.pid
